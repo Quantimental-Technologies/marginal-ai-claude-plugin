@@ -19,6 +19,8 @@ Marginal AI gives you factual, sourced market data. You are the analyst: gather 
 
 **"What happened at X?"** Call `get_company_events` (by date for the latest, `rank_by=materiality` for the most significant), then `get_event` on the ones that matter for the full record, corroborating sources and the price reaction.
 
+**Companies in an industry.** `list_industries` gives the groups (filter with `query`); `industry=<exact name>` lists the companies in one.
+
 **"What happened across the market?"** Call `search_events` with a `category` or `event_type` and a window of at most 31 days. Use `list_event_taxonomy` for the exact category and type strings.
 
 **Monitoring.** Call `get_new_events` with `since` set to the last `high_watermark` you received. `since` is inclusive, so drop any `event_id` you have already seen.
@@ -32,4 +34,4 @@ Marginal AI gives you factual, sourced market data. You are the analyst: gather 
 **Research questions.** For an analysed, cited answer rather than raw data, call `research_submit` (then `research_result` after `poll_after_s`). Use `depth: "deep"` (Deep Dive) only when the user asks for a thorough analysis: it takes longer and uses more of their Compute Units.
 
 ## Cost and limits
-The user pays in Compute Units (CU): 0.5 CU per successful data call; `resolve_company`, `list_event_taxonomy` and `list_macro_series` are free; research uses CU like a chat question. Each result shows `cu_charged`. Make targeted calls (a ticker and a date window) rather than broad sweeps. On `insufficient_balance` stop and tell the user. On `rate_limited` wait the stated seconds. Large results are trimmed with a note telling you which `limit` to page with.
+The user pays in Compute Units (CU): 0.5 CU per successful data call; `resolve_company`, `list_event_taxonomy`, `list_industries` and `list_macro_series` are free; research uses CU like a chat question. Each result shows `cu_charged`. Make targeted calls (a ticker and a date window) rather than broad sweeps. On `insufficient_balance` stop and tell the user. On `rate_limited` wait the stated seconds. Large results are trimmed with a note telling you which `limit` to page with.
