@@ -1,5 +1,6 @@
 {
   "name": "marginal-ai",
+  "description": "Marginal AI plugins for Claude Code: research data for your agent.",
   "owner": {
     "name": "Quantimental Technologies Ltd",
     "email": "support@marginal-ai.com"
