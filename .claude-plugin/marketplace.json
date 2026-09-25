@@ -1,0 +1,15 @@
+{
+  "name": "marginal-ai",
+  "owner": {
+    "name": "Quantimental Technologies Ltd",
+    "email": "support@marginal-ai.com"
+  },
+  "plugins": [
+    {
+      "name": "marginal-ai",
+      "source": "./",
+      "description": "Marginal AI research data for your agent: corporate and market events, SEC-reported figures, macro series.",
+      "version": "1.0.0"
+    }
+  ]
+}

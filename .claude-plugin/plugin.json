@@ -1,0 +1,12 @@
+{
+  "name": "marginal-ai",
+  "version": "1.0.0",
+  "description": "Marginal AI as a research layer for your agent: source-corroborated corporate and market events with point-in-time timestamps, figures as reported to the SEC, and macroeconomic series. Factual data only; no investment advice, no orders.",
+  "author": {
+    "name": "Quantimental Technologies Ltd",
+    "email": "support@marginal-ai.com",
+    "url": "https://marginal-ai.com"
+  },
+  "homepage": "https://marginal-ai.com/agent-api",
+  "keywords": ["finance", "markets", "sec", "edgar", "events", "macro", "research", "mcp"]
+}

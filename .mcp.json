@@ -1,0 +1,8 @@
+{
+  "mcpServers": {
+    "marginal-ai": {
+      "type": "http",
+      "url": "https://api.marginal-ai.com/mcp"
+    }
+  }
+}
