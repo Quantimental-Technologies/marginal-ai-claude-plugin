@@ -14,4 +14,4 @@ Then run `/mcp`, choose `marginal-ai`, and sign in to Marginal AI in the browser
 - Figures exactly as companies reported them to the SEC, each linked to its filing.
 - Macroeconomic series.
 
-Uses your Compute Units: 0.5 CU per data call (lookups are free); research questions cost like a chat question. Factual data only: Marginal AI does not give investment advice and does not place orders. Docs and limits: https://marginal-ai.com/agent-api. Terms: https://marginal-ai.com/agent-api-terms.
+Uses your Compute Units: a question costs like the same question in the Marginal AI app, plus 1 CU; a data call 0.5 CU (lookups are free). Factual data only: Marginal AI does not give investment advice and does not place orders. Docs and limits: https://marginal-ai.com/agent-api. Terms: https://marginal-ai.com/agent-api-terms.

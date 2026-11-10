@@ -10,7 +10,7 @@
       "name": "marginal-ai",
       "source": "./",
       "description": "Marginal AI research data for your agent: corporate and market events, SEC-reported figures, macro series.",
-      "version": "1.0.0"
+      "version": "1.1.0"
     }
   ]
 }
